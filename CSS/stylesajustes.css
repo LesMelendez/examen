@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(226, 226, 173);
+    margin: 0px;
+    padding: 0px;
+
+}
+header
+{
+    background-color: rgb(176, 240, 93);
+    margin: 0px;
+    width: 100%;
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoimg
+{
+    margin: 10px;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.regresar button{
+    background-color: transparent;
+    border: none;
+}
+.regresar img{
+    width: 4rem;
+    height: 4rem;
+}
+.options{
+    display: flex;
+    justify-content: center;
+}
+.options li button{
+    background-color: skyblue;
+    width: 60rem;
+    height: 5rem;
+    cursor: pointer;
+
+}
+li
+{
+    list-style: none;
+}
+textarea{
+    
+    width: 80%;
+    height: 7rem;
+}
+.comentarios
+{
+    background-color: rgb(149, 255, 61);
+    margin:7vh;
+    border-radius: 8px;
+}
+.reset
+{
+    margin-left: 90%;
+    margin-top: 90%;
+}

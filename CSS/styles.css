@@ -1,0 +1,195 @@
+body{
+    background-color: rgb(252, 246, 170);
+}
+.menu
+{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(234, 247, 63, 0.356);
+}
+.logo
+{
+    width: 50%;
+}
+.logo img{
+    border-radius: 100%;
+}
+
+.nombreapp
+{
+    margin-left: 5rem;
+    margin-top: 17px;
+}
+.logo img{
+    width: 4rem;
+    height: 4rem;
+}
+.principales{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 3rem;
+    margin: 6px;
+}
+a
+{
+    font-size: 25px ;
+    text-shadow: royalblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(26, 135, 150);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carrousel{
+    width: 100%;
+    height: 100%;   
+    
+}
+
+.conteCarrousel{
+    
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+    
+} 
+
+.itemCarrousel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselTarjeta{
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselArrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+
+#itemCarrousel-1{
+    background-color: rgb(226, 200, 50);
+}
+
+#itemCarrousel-2{
+    background-color: rgb(147, 239, 255);
+}
+
+#itemCarrousel-3{
+    background-color: rgb(200, 226, 50);
+}
+#itemCarrousel-4
+{
+    background-color: rgb(192, 176, 236);
+}
+#itemCarrousel-5{
+    background-color: skyblue;
+}
+#itemCarrousel-6{
+    background-color: rgb(183, 236, 176);
+}
+#itemCarrousel-7{
+    background-color: rgb(236, 176, 226);
+}
+.conteCarrouselController{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteCarrouselController > a{
+    text-decoration: none;
+    font-size: 2em;
+    color: grey;
+}
+
+.itemCarrouselArrows > a > i{
+    color: white;
+}
+img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.icon
+{
+    position: relative;
+    width: 4rem;
+    height: 4rem;
+    filter: invert(100%);
+}
+.text
+{
+    position:  relative;
+    text-shadow: black;
+    color: white;
+    font-size: 3vh;
+    margin-left: 70%;
+    
+}
+.menu-btn
+{
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    border: 0px;
+    
+}
+.menu-btn img{
+    width: 2rem;
+    height: 2rem;
+    visibility: hidden;
+}
+@media screen and (max-width:412px)
+{
+    .menu
+{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(234, 247, 63, 0.356);
+}
+.nombreapp
+{
+    font-size: 3vh;
+    margin-left: 2rem;
+    margin-top: 7px;
+}
+.logo img{
+    width: 2rem;
+    height: 2rem;
+}
+    .principales{
+        visibility: hidden;
+    }
+    .menu-btn{
+        visibility: visible;
+        width: 2rem;
+        height: 2rem;
+    }
+
+}

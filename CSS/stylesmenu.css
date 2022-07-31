@@ -1,0 +1,142 @@
+body
+{
+    background-color: rgb(226, 226, 173);
+    margin: 0px;
+    padding: 0px;
+}
+header
+{
+    background-color: rgb(176, 240, 93);
+    margin: 0px;
+    width: 100%;
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoimg
+{
+    margin: 10px;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.mapamundi{
+    width: 80%;
+    height: 80%;
+    border-radius: 20%;
+    
+}
+.mapa1{
+    display: flex;
+    justify-content: center;
+}
+.opciones
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+button
+{
+    border: none;
+    cursor: pointer;
+    background-color: rgb(101, 233, 24);
+    font-family: fantasy;
+    font-size: 20px;
+}
+.regresar button{
+    background-color: transparent;
+}
+.regresar img{
+    width: 4rem;
+    height: 4rem;
+}
+.cartas
+{
+    display: flex; 
+    justify-content: space-evenly;  
+}
+.card-1
+{
+    width: 11rem;
+    height: 16rem;
+    background-color: rgb(255, 235, 144);
+    border-radius: 25px;
+    
+}
+.card-2
+{
+    width: 11rem;
+    height: 16rem;
+    background-color: rgb(252, 186, 64);
+    border-radius: 25px;
+}
+.card-3
+{
+    width: 11rem;
+    height: 16rem;
+    background-color: rgb(217, 245, 57);
+    border-radius: 25px;
+}
+.card-4
+{
+    width: 11rem;
+    height: 16rem;
+    background-color: rgb(112, 253, 131);
+    border-radius: 25px;
+}
+.card-5
+{
+    width: 11rem;
+    height: 16rem;
+    background-color: rgb(122, 225, 243);
+    border-radius: 25px;
+}
+.card-6
+{
+    width: 11rem;
+    height: 16rem;
+    background-color: rgb(160, 119, 255);
+    border-radius: 25px;
+}
+.card-7
+{
+    width: 11rem;
+    height: 16rem;
+    background-color: rgb(222, 147, 245);
+    border-radius: 25px;
+}
+.cartas p{
+    
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    color: rgb(92, 92, 92);
+}
+.humedad{
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+}
+.temp{
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+}
+.target
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.target li{
+    background-color: rgba(9, 70, 22, 0.486);
+    width: 11rem;
+    height: 16rem;
+    list-style-type: none;
+    color: white;
+    border-radius: 25px;
+}
+.target p
+{
+    display: flex;
+    justify-content: center;
+    font-size: 6rem;
+}
